@@ -1,1 +1,257 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+    <title>My Protfolio</title>
+</head>
+<body class="">
+
+<div class="container">
+<!-- ----------------------Navbar-------------------------- -->
+
+
+<nav class="navbar">
+    <div class="box theme">
+        <div class="item" onclick="theme()">
+            <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+            <ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+        </div>
+    </div>
+<div class="box nav">
+    <div class="item active">
+                    <a href="About">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                         <p>About</p>
+                            </a>
+                            <div class="divider rtl"></div>
+                             </div>
+     <div class="item">
+                    <a href="Resume">
+                        <ion-icon name="file-tray-full-outline"></ion-icon>
+                          <p>Resume</p>
+                            </a>
+                            <div class="divider rtl"></div>
+                          </div>
+     <div class="item">
+                    <a href="Projects">
+                        <ion-icon name="layers-outline"></ion-icon>
+                    <p>Projects</p>
+                </a>
+                <div class="divider rtl"></div>
+                  </div>
+    <div class="item">
+            <a href="blogs">
+                <ion-icon name="reader-outline"></ion-icon>
+                  <p>Blogs</p>
+                </a>
+                <div class="divider rtl"></div>
+                     </div>
+    <div class="item">
+                    <a href="contact">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                         <p>Contact</p>
+                            </a>
+                            <div class="divider rtl"></div>
+                             </div>
+                    </div>
+
+            </nav>
+
+
+<!-- -------------------------Profile------------------------------- -->
+
+                <div class="box profile">
+                    <img class="header" src="cover.jpg" alt="">
+                    <img class="img" src="Profile.jpg" alt="">
+                    <h2> Nick Williams</h2>
+                    <p id="typed" class="colored">Full-Stack Web Developer</p>
+
+<ul>
+    <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+</ul>
+
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#">My Resume<ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                        <td><a href="#">Contact Me<ion-icon name="call-outline"></ion-icon></a></td>
+                    </tr>
+                </table>
+            </div>
+
+                </div>
+
+<!-- ----------------------------------Content---------------------------------------------- -->
+
+            <div class="box content">
+                        <div class="wrapper">
+                        <h2> Hey <span class="colored" >There!</span>👋</h2>
+                        <div class="divider ltr"></div>
+                        <p>I'm thrilled to tell you a bit about myself. I have over six years of IT experience, specializing in <span class="colored"> PHP, Database Development, and open-source frameworks.</span> If you're in need of a motivated team player, let's connect!</p>
+                        
+                        <!-- /*------------------------ achivement----------------- */ -->
+
+                        
+                        <section class="achivements">
+
+                    <div>       
+                    <h3><ion-icon name="layers-outline"></ion-icon> 2K+</h3>
+                    <p>Website Designed</p>
+                        </div>
+
+                        <div>       
+                    <h3> <ion-icon name="briefcase-outline"></ion-icon> 5+</h3>
+                    <p>Years of Experienc</p>
+                        </div>
+
+                        <div>       
+                    <h3><ion-icon name="rocket-outline"></ion-icon> 4K</h3>
+                    <p>Completed Projects</p>
+                        </div>
+
+                        </section>
+
+        <!-- skills -->
+
+            <h2>My <span class="colored">Skills</span></h2>           
+            <div class="divider ltr"></div>
+
+            <section class="skills">
+                <div><ion-icon name="logo-html5"></ion-icon><p>HTML5</p></div>
+                <div><ion-icon name="logo-css3"></ion-icon><p>CSS</p></div>
+                <div><ion-icon name="logo-react"></ion-icon><p>React</p></div>
+                <div><ion-icon name="logo-python"></ion-icon><p>Pythoon</p></div>
+                <div>
+                    <div class="circle" style="--percent:65%">
+                        <h4>65<small>%</small></h4>
+                    </div>
+                    <p>MySQL</p>
+                </div>
+                <div>
+                    <div class="circle" style="--percent:65%">
+                        <h4>85<small>%</small></h4>
+                    </div>
+                    <p>MySQL</p>
+                </div>
+            
+                <div>
+        <!-- ======================================================== -->
+
+        <div class="flex-wrapper">
+        <div class="single-chart">
+            <p>Node Js</p>
+            <svg viewBox="0 0 36 36" class="circular-chart orange">
+            <path class="circle-bg"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path class="circle"
+                stroke-dasharray="90, 100"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            
+            <text x="18" y="20.35" class="percentage">90%</text>
+            </svg>
+        </div>
+        
+
+
+        <div class="single-chart">
+            <p>PostgreSQL</p>
+            <svg viewBox="0 0 36 36" class="circular-chart green">
+            <path class="circle-bg"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path class="circle"
+                stroke-dasharray="75, 100"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <text x="18" y="20.35" class="percentage">                                    75%</text>
+            </svg>
+        </div>
+        </div>
+
+                    <!-- ================================================================= -->
+                    
+                    <!-- <div class="progress-bar">
+                        <p>Node Js <span>90%</span></p>
+                        <progress max="100" value="90"></progress>
+                    </div>
+                    <div class="progress-bar">
+                        <p>PostgreSQL <span>75%</span></p>
+                        <progress max="100" value="75"></progress>
+                    </div>  -->
+                </div>
+            </section>
+
+        <!-- ========================Exprience Saction=================================== -->
+
+                <h2>My <span class="colore">Experience</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="experiences">
+
+
+            <div class="experience">
+                <h2>Graphic Designer</h2>
+                <h4>Business Card Design, Logo, Poster <span class="date">Aug, 2019</span> &#x26AC; <span class="date">Dec, 2021</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi rem delectus impedit quidem, labore adipisci laborum quia est laudantium at, alias ex repellendus optio voluptatem velit sint quaerat dolores.n</p>
+            </div>
+
+            
+            <div class="experience">
+                <h2>Graphic Designer</h2>
+                <h4>Business Card Design, Logo, Poster<span class="date">Aug, 2019</span> &#x26AC; <span class="date">Dec, 2021</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi rem delectus impedit quidem, labore adipisci laborum quia est laudantium at, alias ex repellendus optio voluptatem velit sint quaerat dolores.n</p>
+            </div>
+
+            
+            <div class="experience">
+                <h2>Graphic Designer</h2>
+                <h4>Business Card Design, Logo, Poster <span class="date">Aug, 2019</span> &#x26AC; <span class="date">Dec, 2021</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi rem delectus impedit quidem, labore adipisci laborum quia est laudantium at, alias ex repellendus optio voluptatem velit sint quaerat dolores.n</p>
+            </div>
+
+                </section>
+
+                <h1>My <span class="colored">Contributions</span></h1>
+<div class="divider ltr"></div>
+                <section class="contribution">
+                    <div class="wrapper">
+                        <activity-graph
+	range-start="2021-01-01"
+	range-end="2021-12-31"
+    activity-levels="0,1,2,3,5"
+	activity-data="2021-01-01,2021-01-01,2021-01-01,2021-01-01,2021-01-01,2021-01-02,2021-01-02,2021-01-02,2021-01-02,2021-01-02,2021-01-03,2021-01-03,2021-01-03,2021-01-01,"
+	
+></activity-graph>
+                    </div>
+                </section>
+
+
+                </div>
+            </div>
+
+</div>
+    
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="/script.js"></script>
+
+</body>
+                          </html>
